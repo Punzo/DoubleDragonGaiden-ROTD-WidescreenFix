@@ -16,7 +16,7 @@
 4. Launch the game. The plugin will automatically patch the UI for ultrawide support.
 
 ## Building from Source
-You need the .NET [SDK](https://dotnet.microsoft.com/en-us/download) (6.0+ or 10.0+) and [BepInEx](https://github.com/BepInEx/BepInEx) installed.
+You need the .NET [SDK](https://dotnet.microsoft.com/en-us/download) (10.0+) and [BepInEx](https://github.com/BepInEx/BepInEx) installed.
 
 1. Open a terminal in this folder.
 2. Run:
