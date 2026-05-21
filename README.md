@@ -5,7 +5,7 @@
 ![Description](https://github.com/Punzo/DoubleDragonGaiden-ROTD-WidescreenFix/raw/main/Screenshot.png)
 
 ## Features
-- Proper UI scaling for ultrawide (32:9) and other non-16:9 resolutions
+- UI scaling for ultrawide (tested only on 32:9)
 - No more zoomed-in gameplay or unusable menus
 - Open source and easy to customize
 
