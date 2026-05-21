@@ -1,6 +1,6 @@
 # WidescreenFix for Double Dragon Gaiden: ROTD
 
->A BepInEx plugin to fix UI scaling and enable proper 32:9 ultrawide support for Double Dragon Gaiden: Rise of the Dragons.
+>A BepInEx plugin to fix UI scaling and enable ultrawide support for Double Dragon Gaiden: Rise of the Dragons.
 
 ![Description](https://github.com/Punzo/DoubleDragonGaiden-ROTD-WidescreenFix/raw/main/Screenshot.png)
 
