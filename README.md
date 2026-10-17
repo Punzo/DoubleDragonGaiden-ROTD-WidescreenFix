@@ -23,6 +23,7 @@ You need the .NET [SDK](https://dotnet.microsoft.com/en-us/download) (10.0+) and
 	```
 	dotnet build -c Release
 	```
+	If the game is not in the default Steam folder, add `-p:GameDir="D:\path\to\DoubleDragonGaiden_ROTD"`.
 3. The compiled DLL will be in `bin/Release/netstandard2.1/`.
 4. Copy the DLL to your game's `BepInEx/plugins/` folder.
 
