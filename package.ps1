@@ -5,7 +5,7 @@ $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 Set-Location $PSScriptRoot
 
-$Version = '1.1.0'
+$Version = '1.0.0'
 $Name = "DoubleDragonGaiden-ROTD-WidescreenFix-$Version"
 $BepInExUrl = 'https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip'
 $BepInExLicenseUrl = 'https://raw.githubusercontent.com/BepInEx/BepInEx/master/LICENSE'

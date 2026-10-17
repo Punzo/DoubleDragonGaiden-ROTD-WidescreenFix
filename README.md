@@ -9,6 +9,8 @@
 - No more zoomed-in gameplay or unusable menus
 - No black bars at the sides: the world is rendered at the full width of the screen
 - No invisible walls at the old 16:9 screen edges: you can walk to the edge of your screen
+- Main menu, mission select, game over and versus menu backgrounds fill the whole screen
+- Stable UI scaling: no jumping loading screens or menus
 - Open source and easy to customize
 
 ## Installation
@@ -26,8 +28,9 @@ After the first launch, edit `BepInEx/config/com.yourname.widescreenfix.cfg`:
 | Setting | Default | Description |
 |---|---|---|
 | `WidenWorld` | `true` | Render the world at the full screen width (removes the black bars at the sides). |
-| `WideBounds` | `true` | Move the invisible side walls to the real screen edges (never past the room or arena bounds), and keep enemies in the side areas counted as on screen. |
-| `StretchOverlays` | `true` | Stretch full-screen fades, flashes and cutscene letterbox bars to the full screen width. |
+| `WideBounds` | `true` | Use the full screen width for the camera limits and the invisible side walls, so you can walk to the edge of the screen and enemies at the sides are not despawned. |
+| `WidenMenus` | `true` | Extend the main menu, mission select, game over and versus menu backgrounds to the full screen width. |
+| `StretchOverlays` | `true` | Widen the cutscene letterbox bars to the full screen width. |
 | `DebugDump` | `false` | Log cameras, canvases and raw images after each scene load (for development). |
 
 ## Building from Source
